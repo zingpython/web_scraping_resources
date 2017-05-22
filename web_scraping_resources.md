@@ -11,6 +11,18 @@ Requests library for Python
 http://docs.python-requests.org/en/master/
 ```
 
+HOWTO Fetch Internet Resources Using urllib module
+
+for python3.6
+```
+https://docs.python.org/3.6/howto/urllib2.html
+```
+
+for python2.7
+```
+https://docs.python.org/2.7/howto/urllib2.html
+```
+
 Loves Labours Lost, play by Shakespeare
 ```
 http://shakespeare.mit.edu/lll/full.html
