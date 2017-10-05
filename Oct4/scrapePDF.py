@@ -17,3 +17,16 @@ def read_file(pdfFile):
 	content = string.getvalue()
 	string.close()
 	return content
+
+def pdf_to_str():
+	context = ssl._create_unverified_context()
+	# pdfFile = urlopen("https://www.citigroup.com/citi/investor/data/k15c.pdf", context=context);
+	pdfFile = urlopen("https://www.nasa.gov/sites/"\
+		"default/files/atoms/files/"\
+		"journey-to-mars-next-steps-20151008_508.pdf", context=context);
+	outputString = read_file(pdfFile)
+
+	print(outputString)
+	pdfFile.close()
+
+pdf_to_str()

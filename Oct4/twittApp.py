@@ -1,10 +1,10 @@
 import twitter
 import json
 
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-OAUTH_TOKEN = ''
-OAUTH_TOKEN_SECRET = ''
+CONSUMER_KEY = 'Q88u0KvQK4f7fGfqO43SxVbcE'
+CONSUMER_SECRET = 'ahQk6VKzjuF5eucS6a6DJT3LubBqnBTj5JxT2BvBTaIDMKkZhO'
+OAUTH_TOKEN = '797271725629173762-0Y2XBwZGwjfcTpXLGLxZCKOI3mDmEtq'
+OAUTH_TOKEN_SECRET = 'tdVlX8T6NZzoOiEpG6f7oAUrMRwOK765sITdzWgbhjRZo'
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 						   CONSUMER_KEY, CONSUMER_SECRET)
 twitter_api = twitter.Twitter(auth=auth)
@@ -40,7 +40,7 @@ common_trends = world_trends_set.intersection(us_trends_set)
 
 # fourth
 # lets pic a trend and exemine it further
-q = '#TORvMTL'
+q = '#NLWildCard'
 count = 100
 search_results = twitter_api.search.tweets(q=q, count=count)
 # print(type(search_results))
@@ -60,14 +60,14 @@ hashtags = [ hashtag['text'] for status in statuses for hashtag in status['entit
 # Serialize obj to a JSON formatted str
 # print(json.dumps(status_texts[0:5], indent=1))
 l = json.dumps(status_texts[0:5], indent=1)
-# print(type(l))
-# print(json.dumps(status_texts[0:5], indent=1))
+print(type(l))
+print(json.dumps(status_texts[0:5], indent=1))
 # print(json.dumps(screen_names[0:5], indent=1))
 # print(json.dumps(hashtags[0:5], indent=1))
 # print(json.dumps(words[0:5], indent=1))
 # Compute a collection of all words from all tweets
 words = [ w for t in status_texts for w in t.split() ]
-# print("Printing Words",words)
+print("Printing Words",words)
 
 
 
