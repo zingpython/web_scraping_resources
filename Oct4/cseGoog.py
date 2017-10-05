@@ -1,8 +1,8 @@
 from apiclient import discovery
 
 
-API_KEY = 'AIzaSyA7RZEzUkOR7L6MLqxrqMgCN0pbrqFEFdE'
-CSE_ID = "013682915878914615579:bi8qnwz2tmk"
+API_KEY = ''
+CSE_ID = ""
 
 TMPL = '''
     Title: %s
