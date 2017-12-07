@@ -28,17 +28,6 @@ Loves Labours Lost, play by Shakespeare
 http://shakespeare.mit.edu/lll/full.html
 ```
 
-Python Regular Expressions
-
-Regular expression operations
-```
-https://docs.python.org/3/library/re.html
-```
-
-Try regex
-```
-http://pythex.org/
-```
 
 What is SSL
 ```
@@ -50,62 +39,19 @@ E-mini S&P 500 Futures Quotes
 http://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500.html
 ```
 
-SQLite
-```
-https://www.sqlite.org/index.html
-```
-
-SQLite - SELECT Query
-```
-https://www.tutorialspoint.com/sqlite/sqlite_select_query.htm
-```
-
-DB Browser for SQLite
-```
-http://sqlitebrowser.org/
-```
 
 PDFminer3k PDF parser and analyzer
 ```
 https://pypi.python.org/pypi/pdfminer3k
 ```
 
-IO - Core tools for working with streams
-```
-https://docs.python.org/3/library/io.html
-```
-
-Citigroup annual repport
-```
-https://www.citigroup.com/citi/investor/data/k15c.pdf
-```
 
 NASA article
 ```
 https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf
 ```
 
-
-IHS Markit
+OTC Markets
 ```
-http://www.markit.com/
+https://www.otcmarkets.com/stock/LIBFF/profile
 ```
-
-```
-http://dev.markitondemand.com/MODApis/
-```
-
-wget 3.2 python download utility
-```
-https://pypi.python.org/pypi/wget
-```
-
-S&P 500 Sector SPDR ETFs
-```
-http://www.sectorspdr.com/sectorspdr/
-```
-
-```
-http://www.sectorspdr.com/sectorspdr/IDCO.Client.Spdrs.Holdings/Export/ExportCsv?symbol=
-```
-
