@@ -9,7 +9,7 @@ webpage = urlopen(req).read()
 bsobj = BeautifulSoup(webpage, "html.parser")
 # print(bsobj)
 table = bsobj.find("table",{"id":"quotesFuturesProductTable1"})
-print(table)
+# print(table)
 
 csvFile = open("sp_h.csv", 'wt')
 writer = csv.writer(csvFile)
@@ -22,9 +22,9 @@ for row in rows:
 	csvRow = []
 	for cell in row.findAll(['td','th']):
 	# 		# print(cell)
-		csvRow.append(cell.get_text())
+		csvRow.append(cell.get_text().strip())
 	print(csvRow)
-	writer.writerow(csvRow)
+	# writer.writerow(csvRow)
 
 
 
