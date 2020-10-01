@@ -23,7 +23,7 @@ US_WOE_ID = 23424977
 world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
 us_trends = twitter_api.trends.place(_id=US_WOE_ID)
 #print("US Trends",us_trends)
-# lets conver twitter object to string, dumps takes an object and produces a string
+# lets convert twitter object to string, dumps takes an object and produces a string
 
 # print(json.dumps(us_trends, indent=1))
 # from this we can get trends 
